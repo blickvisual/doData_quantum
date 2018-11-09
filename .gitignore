@@ -1,6 +1,6 @@
 .ipynb_checkpoints/
 .DS_Store
-tests flightdata/data/20180521.csv
 *.pyc
 *.qgs~
 *.qgs~
+data_generated/
