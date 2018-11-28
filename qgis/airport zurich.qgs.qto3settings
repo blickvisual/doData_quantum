@@ -1,0 +1,124 @@
+{
+  "CAMERA": "PERSPECTIVE",
+  "DECOR": {
+    "FooterLabel": "test",
+    "NorthArrow": {
+      "color": "0x666666",
+      "visible": true
+    }
+  },
+  "LAYERS": [
+    {
+      "geomType": 1,
+      "layerId": "departures20181109144828993",
+      "name": "departures",
+      "properties": {
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Sphere",
+        "comboBox_altitudeMode": null,
+        "fieldExpressionWidget_altitude": "\"altitude\"",
+        "labelHeightWidget": {
+          "comboData": 0,
+          "comboText": "Absolute",
+          "editText": "",
+          "type": 6
+        },
+        "radioButton_AllFeatures": true,
+        "radioButton_Expression": true,
+        "styleWidget0": {
+          "comboData": 2,
+          "comboText": "Random",
+          "editText": "000000",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "347.8",
+          "type": 1
+        },
+        "styleWidget3": {},
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 1,
+      "layerId": "test20181108142638513",
+      "name": "test",
+      "properties": null,
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "4b1801_short20181107140732472",
+      "name": "4b1801_short",
+      "properties": null,
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "4b1801_line20181107132714487",
+      "name": "4b1801_line",
+      "properties": null,
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "4b180120181107132520594",
+      "name": "4b1801",
+      "properties": null,
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "airport_zurich20181109105507070",
+      "name": "airport_zurich OGRGeoJSON Polygon",
+      "properties": null,
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "airport_zurich20181109105430880",
+      "name": "airport_zurich",
+      "properties": null,
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "FLAT",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": "airport_zurich20181109105507070",
+        "comboBox_TextureSize": 100,
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_ImageFile": "",
+        "radioButton_MapCanvas": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    }
+  ],
+  "OutputFilename": "/Users/hws/Desktop/test/index.html",
+  "Template": "3DViewer.html"
+}
