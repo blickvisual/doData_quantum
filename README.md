@@ -1,5 +1,7 @@
 # Welcome!
 Here will you find some resources, data and scripts based on the presentation. Feel free to contact us!
+## Credits - OpenSky Network - Licence
+We exported the date from the stunning [OpenSky Network](https://opensky-network.org/). You can use the data for exploration purpose. For forther information, please consider de license! https://opensky-network.org/datasets/states/LICENSE.txt
 ## Preparation
 ### Download this repository
 You can either download it by `clone or download` and `download zip` or use your prefered git client. 
