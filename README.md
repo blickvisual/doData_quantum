@@ -3,6 +3,7 @@ Here you will find our presentation we had for the Quantum Do.Data, the data to 
 Feel free to contact us!
 
 Have a great day!
+
 [Priska](mailto:priska.wallimann@ringier.ch) and [Simon](mailto:simon.huwiler@ringier.ch)
 
 ## The stories
@@ -54,5 +55,7 @@ This scripts compares the departure time of longtail and shorttail Swiss planes.
 The script: [3. Swiss Planes Timetable.ipynb](python/3.%20Swiss%20Planes%20Timetable.ipynb)
 ### 4. Create 3D-HTML-Website with QGIS.ipynb
 In this tutorial, you learn how to create a 3D-Website (like this one: http://simonhuwiler.ch/doData) with QGIS. You need to install QGIS for this!
+
+![ThreeJS](_stuff/qgis2threejs.png)
 
 The tutorial: [4. Create 3D-HTML-Website with QGIS.ipynb](python/4.%20Create%203D-HTML-Website%20with%20QGIS.ipynb)
