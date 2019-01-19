@@ -1,8 +1,22 @@
-# Welcome!
-Here will you find some resources, data and scripts based on the presentation. Feel free to contact us!
+# Up in the Sky!
+Here you will find our presentation we had for the Quantum Do.Data, the data to play with and some python scripts. A huge thanks to the team of [Quantum Analytics](http://quantumanalytics.ch/) for letting us talk about things we like.  
+Feel free to contact us!
+
+Have a great day!
+[Priska](mailto:priska.wallimann@ringier.ch) and [Simon](mailto:simon.huwiler@ringier.ch)
+
+## The end result
+* [Gewimmel am Himmel - The Online Story](https://www.blick.ch/storytelling/2018/flugrouten/)
+* [Gewimmel am Himmel - The Print Version](infografic/2018_Luftverkehr_fertig.pdf)
+
+## What you will find here
+* Gewimmel am Himmel - The print version
+* The Presentation
+* The Data
+* Scripts
 ## Credits - OpenSky Network - Licence
 We exported the date from the stunning [OpenSky Network](https://opensky-network.org/). You can use the data for exploration purpose. For forther information, please consider de license! https://opensky-network.org/datasets/states/LICENSE.txt
-## Preparation
+## Preparation for python
 ### Download this repository
 You can either download it by `clone or download` and `download zip` or use your prefered git client. 
 ### Install GeoPandas
@@ -28,8 +42,16 @@ During development, we use a sampled file, to preserve our computer. Run the Fil
 
 ## Explore
 ### Plot a map of the Zurich Airport
-XY
+This script plots a map of a certain region and saves it as PNG or SVG.
+
+The script: [python/2. plot zurich airport.ipynb](python/2.%20plot%20zurich%20airport.ipynb)
+
+![Zurich](_stuff/zurich.png "Zurich")
 ### Plot a timetable for short range and long range Swiss airplanes
-XY
+This scripts compares the departure time of longtail and shorttail Swiss planes.
+
+The script: [3. Swiss Planes Timetable.ipynb](3.%20Swiss%20Planes%20Timetable.ipynb)
 ### Export one flight and create an interactive 3D-Visualisation with QGIS
-XY
+In this tutorial, you learn how to create a 3D-Website (like this one: http://simonhuwiler.ch/doData) with QGIS. You need to install QGIS for this!
+
+The tutorial: [4. Create 3D-HTML-Website with QGIS.ipynb](4.%20Create%203D-HTML-Website%20with%20QGIS.ipynb)
