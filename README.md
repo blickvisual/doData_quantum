@@ -32,4 +32,4 @@ XY
 ### Plot a timetable for short range and long range Swiss airplanes
 XY
 ### Export one flight and create an interactive 3D-Visualisation with QGIS
-XY z
+XY
