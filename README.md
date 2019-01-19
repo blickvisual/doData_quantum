@@ -5,15 +5,16 @@ Feel free to contact us!
 Have a great day!
 [Priska](mailto:priska.wallimann@ringier.ch) and [Simon](mailto:simon.huwiler@ringier.ch)
 
-## The end result
+## The stories
 * [Gewimmel am Himmel - The Online Story](https://www.blick.ch/storytelling/2018/flugrouten/)
 * [Gewimmel am Himmel - The Print Version](infografic/2018_Luftverkehr_fertig.pdf)
 
 ## What you will find here
-* Gewimmel am Himmel - The print version
+* [Gewimmel am Himmel - The print version](infografic/2018_Luftverkehr_fertig.pdf)
 * The Presentation
-* The Data
-* Scripts
+* [The Data](data_raw/README.md)
+* [Scripts](python/)
+
 ## Credits - OpenSky Network - Licence
 We exported the date from the stunning [OpenSky Network](https://opensky-network.org/). You can use the data for exploration purpose. For forther information, please consider de license! https://opensky-network.org/datasets/states/LICENSE.txt
 ## Preparation for python
@@ -37,21 +38,21 @@ Now open the terminal/console (on Mac: `terminal` on windows `cmd`) and navigate
 Because GitHub has a file size restriction, we had to split the data into numerous files. Lets create one big file:
 Open the file [python/0 Concatenate Files.ipynb](python/0.%20Concatenate%20Files.ipynb) and run it. This will create the file `/data_generated/20180521.csv`  
 
-###Create a sample
+### Create a sample
 During development, we use a sampled file, to preserve our computer. Run the File [python/1. sampling.ipynb](python/1.%20sampling.ipynb). Be aware: This is not a scientific sample, it will just take every 10th data point.
 
 ## Explore
-### Plot a map of the Zurich Airport
+### 2. plot zurich airport.ipynb
 This script plots a map of a certain region and saves it as PNG or SVG.
 
 The script: [python/2. plot zurich airport.ipynb](python/2.%20plot%20zurich%20airport.ipynb)
 
 ![Zurich](_stuff/zurich.png "Zurich")
-### Plot a timetable for short range and long range Swiss airplanes
+### 3. Swiss Planes Timetable.ipynb
 This scripts compares the departure time of longtail and shorttail Swiss planes.
 
-The script: [3. Swiss Planes Timetable.ipynb](3.%20Swiss%20Planes%20Timetable.ipynb)
-### Export one flight and create an interactive 3D-Visualisation with QGIS
+The script: [3. Swiss Planes Timetable.ipynb](python/3.%20Swiss%20Planes%20Timetable.ipynb)
+### 4. Create 3D-HTML-Website with QGIS.ipynb
 In this tutorial, you learn how to create a 3D-Website (like this one: http://simonhuwiler.ch/doData) with QGIS. You need to install QGIS for this!
 
-The tutorial: [4. Create 3D-HTML-Website with QGIS.ipynb](4.%20Create%203D-HTML-Website%20with%20QGIS.ipynb)
+The tutorial: [4. Create 3D-HTML-Website with QGIS.ipynb](python/4.%20Create%203D-HTML-Website%20with%20QGIS.ipynb)
