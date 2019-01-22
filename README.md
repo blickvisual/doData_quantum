@@ -18,6 +18,9 @@ Have a great day!
 
 ## Credits - OpenSky Network - Licence
 We exported the date from the stunning [OpenSky Network](https://opensky-network.org/). You can use the data for exploration purpose. For forther information, please consider de license! https://opensky-network.org/datasets/states/LICENSE.txt
+
+The description of the data structure is located here: https://opensky-network.org/impala-guide. Scroll to the chapter `The Columns`.
+
 ## Preparation for python
 ### Download this repository
 You can either download it by `clone or download` and `download zip` or use your prefered git client. 
