@@ -8,11 +8,11 @@ Have a great day!
 
 ## The stories
 * [Gewimmel am Himmel - The Online Story](https://www.blick.ch/storytelling/2018/flugrouten/)
-* [Gewimmel am Himmel - The Print Version](infografic/2018_Luftverkehr_fertig.pdf)
+* [Gewimmel am Himmel - The Print Version](presentation/2018_Luftverkehr_fertig.pdf)
 
 ## What you will find here
-* [Gewimmel am Himmel - The print version](infografic/2018_Luftverkehr_fertig.pdf)
-* The Presentation
+* [Gewimmel am Himmel - The print version](presentation/2018_Luftverkehr_fertig.pdf)
+* [The Presentation](presentation/)
 * [The Data](data_raw/README.md)
 * [Scripts](python/)
 
